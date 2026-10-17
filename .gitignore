@@ -1,0 +1,27 @@
+# Build
+target/
+node_modules/
+dist/
+dist-ssr/
+*.log
+
+# Env / secrets — never commit real values
+.env
+.env.local
+*.pem
+*.key
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# Test / coverage
+coverage/
+*.lcov
